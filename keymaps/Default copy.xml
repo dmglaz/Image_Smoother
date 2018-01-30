@@ -1,9 +1,7 @@
 <keymap version="1" name="Default copy" parent="$default">
   <action id="ActivateDebugToolWindow" />
   <action id="ActivateRunToolWindow" />
-  <action id="ChooseRunConfiguration">
-    <keyboard-shortcut first-keystroke="shift ctrl enter" />
-  </action>
+  <action id="ChooseRunConfiguration" />
   <action id="EditorChooseLookupItemCompleteStatement" />
   <action id="EditorCompleteStatement" />
   <action id="Run">
