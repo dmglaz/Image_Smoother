@@ -4,6 +4,9 @@
   <action id="ChooseRunConfiguration" />
   <action id="EditorChooseLookupItemCompleteStatement" />
   <action id="EditorCompleteStatement" />
+  <action id="ExecuteInPyConsoleAction">
+    <keyboard-shortcut first-keystroke="alt z" />
+  </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="shift ctrl enter" />
   </action>
