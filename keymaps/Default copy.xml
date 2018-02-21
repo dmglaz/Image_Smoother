@@ -1,0 +1,19 @@
+<keymap version="1" name="Default copy" parent="$default">
+  <action id="ActivateDebugToolWindow" />
+  <action id="ActivateRunToolWindow" />
+  <action id="ChooseRunConfiguration" />
+  <action id="EditorChooseLookupItemCompleteStatement" />
+  <action id="EditorCompleteStatement" />
+  <action id="EditorDecreaseFontSize">
+    <mouse-shortcut keystroke="control button142" />
+  </action>
+  <action id="EditorIncreaseFontSize">
+    <mouse-shortcut keystroke="control button143" />
+  </action>
+  <action id="ExecuteInPyConsoleAction">
+    <keyboard-shortcut first-keystroke="alt z" />
+  </action>
+  <action id="Run">
+    <keyboard-shortcut first-keystroke="shift ctrl enter" />
+  </action>
+</keymap>
