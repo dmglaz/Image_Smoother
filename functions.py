@@ -5,14 +5,13 @@ import cv2
 
 
 # 2D Convolution ( Image Filtering )
-def convolution_2D_filter(path, dim):
-    img = cv2.imread(path)
-    kernel = np.ones((dim, dim), np.float32) / pow(dim,2)
-    dst = cv2.filter2D(img, -1, kernel)
+def convolution_2D_filter(img, kernel):
+    return cv2.filter2D(img, -1, kernel)
 
-    plt.subplot(121), plt.imshow(img), plt.title('Original')
+def show_2_images(org_img,new_img):
+    plt.subplot(121), plt.imshow(org_img), plt.title('Original')
     plt.xticks([]), plt.yticks([])
-    plt.subplot(122), plt.imshow(dst), plt.title('Convolution 2D filter')
+    plt.subplot(122), plt.imshow(new_img), plt.title('New')
     plt.xticks([]), plt.yticks([])
     plt.show()
 
