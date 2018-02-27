@@ -5,7 +5,6 @@ import cv2
 # import functions
 from functions import *
 
-
 folder_path = "Dirty_Images\\"
 dirty_pics = {1: "1.png",2: "2.jpg"}
 
@@ -25,8 +24,6 @@ img = cv2.imread(folder_path+dirty_pics[2])
 new_img = convolution_2D_filter(img, kernel["gauss_blur33"])
 img2 = convolution_2D_filter(new_img, kernel["edge_dtct1"])
 
-
-
 averaging_smoother(folder_path+dirty_pics[2])
-# gaussian_smoother(folder_path+dirty_pics[2])
-# median_smoother(folder_path+dirty_pics[2])
+gaussian_smoother(folder_path+dirty_pics[2])
+median_smoother(folder_path+dirty_pics[2])
