@@ -5,7 +5,7 @@ import cv2
 # import functions
 from functions import *
 
-folder_path = "Dirty_Images\\"
+folder_path = "Images\\"
 dirty_pics = {1: "1.png",2: "2.jpg"}
 
 kernel = {
